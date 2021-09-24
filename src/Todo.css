@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+.Todo{
+}
+.TodoItem{
+    background-color: hsl(2, 64%, 63%);
+    padding: 1rem 1.5rem 1rem 2rem;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TodoItem span{
+    padding: .5rem;
+    cursor: pointer;
+}
+.TodoList{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+.editForm{
+    height: 2.5rem;
+    width: 100%;
+    display: inline-block;
+}
+.editInput{
+    height: 90%;
+    width: 60%;
+    outline: none;
+    border: none;
+    padding: .3rem 1rem;
+}
+.Todo button {
+    border: none;
+    background-color: rgb(221, 81, 76);
+    color: white;
+    height: 90%;
+    padding: .5rem 1rem;
+    margin: 0 1.5rem;
+}

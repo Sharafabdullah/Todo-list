@@ -1,0 +1,17 @@
+.TodoList {
+    background-color: rgb(221, 88, 84);
+    color: white;
+    /* padding: 2rem; */
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+.TodoList header, .TodoList footer{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+.TodoList header{
+    border-bottom: 2px dotted white;
+
+}
